@@ -1,0 +1,27 @@
+📌 Changelog
+
+BOT
+🔄 v1.0 - 31-01-2025 (Rilis Awal)
+- ✅ Order akun digital otomatis dengan invoice
+- ✅ Cek stok akun
+- ✅ Cek dan batalkan invoice
+- ✅ Kirim akun setelah pembayaran
+- ✅ Menampilkan daftar perintah saat `/start`
+
+---
+
+SPREADSHEET
+🔄 v1.0 - 31-01-2025 (Rilis Awal)
+📌 Menambahkan Sheet: netflix → Menyimpan daftar akun Netflix yang tersedia untuk dijual.
+📌 Menambahkan Sheet: viu → Menyimpan daftar akun Viu yang tersedia untuk dijual.
+📌 Menambahkan Sheet: historytrx → Menyimpan transaksi pemesanan akun digital.
+📑 Struktur Awal:
+1️⃣ Sheet: netflix
+
+Kode, Email, Password, Profile, Pin, Deskripsi, Harga, Status
+2️⃣ Sheet: viu
+
+Kode, Email, Password, Deskripsi, Harga, Status
+3️⃣ Sheet: historytrx
+
+Invoice, Telegram ID, Produk, Tanggal Order, Status Pembayaran, Notified
